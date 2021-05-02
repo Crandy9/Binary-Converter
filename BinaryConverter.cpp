@@ -1,4 +1,4 @@
-// Reads in a who number int and outputs its binary conversion
+// Reads in a whole number int and outputs its binary conversion
 
 #include <iostream>
 #include <bitset>
