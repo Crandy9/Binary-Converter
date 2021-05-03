@@ -35,7 +35,6 @@ void recursionConversion(unsigned int num)
 }
 
 //using bitset template class; user needs to tailor this code depending on the size of the conversion
-//example if the user enters an int larger than 128, 
 void bitSetConversion(unsigned int num)
 {
     string binary = bitset<32>(num).to_string(); //to binary
