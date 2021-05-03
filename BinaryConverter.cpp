@@ -34,7 +34,7 @@ void recursionConversion(unsigned int num)
     printf("%d", num % 2);
 }
 
-//using bitset template class; user needs to tailor this code depending on the size of the conversion
+//using bitset template class; user may need to adjust the template size <32> according to the int size in num
 void bitSetConversion(unsigned int num)
 {
     string binary = bitset<32>(num).to_string(); //to binary
